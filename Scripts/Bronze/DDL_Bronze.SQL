@@ -53,25 +53,25 @@ IF OBJECT_ID ('bronze.erp_cust_az12','U') IS NOT NULL
 	DROP Table bronze.erp_cust_az12;
 CREATE TABLE bronze.erp_cust_az12
 	(
-	CID NVARCHAR(100),
-	BDATE DATE,
-	GEN NVARCHAR(100)
+	cid NVARCHAR(100),
+	bdate DATE,
+	gen NVARCHAR(100)
 	);
 
 IF OBJECT_ID ('bronze.erp_loc_a101','U') IS NOT NULL
 	DROP Table bronze.erp_loc_a101;
 CREATE TABLE bronze.erp_loc_a101
 	(
-	CID NVARCHAR(100),
-	CNTRY NVARCHAR(100)
+	cid NVARCHAR(100),
+	cntry NVARCHAR(100)
 	);
 
 IF OBJECT_ID ('bronze.erp_px_cat_g1v2','U') IS NOT NULL
 	DROP Table bronze.erp_px_cat_g1v2;
 CREATE TABLE bronze.erp_px_cat_g1v2
 	(
-	ID NVARCHAR(100),
-	CAT NVARCHAR(100),
-	SUBCAT NVARCHAR(100),
-	MAINTENANCE NVARCHAR(100)
+	id NVARCHAR(100),
+	cat NVARCHAR(100),
+	subcat NVARCHAR(100),
+	maintenance NVARCHAR(100)
 	);
